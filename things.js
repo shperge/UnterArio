@@ -1768,7 +1768,7 @@ function killMario(me, big) {
   pauseAllSounds();
   if(!window.editing) {
       var rand = Math.random();
-      if (rand >= 0.5) {
+      if (rand >= 0.8) {
           play("Mario Dies1.wav");
       } else {
           play("Mario Dies2.wav");
